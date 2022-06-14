@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
+
+html {
+  font-family: "Inter", sans-serif;
+}
+body {
+  background-color: #09192f;
+  color: #fff;
+}
+ul,
+a {
+  text-decoration: none;
+  list-style: none;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem 1rem;
+}
+.links {
+  color: #64ffc5;
+}
+.links:hover {
+  color: #fff;
+}
+footer {
+  text-align: center;
+}
+footer section {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.btn button {
+  background-color: #64ffc5;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  margin: 0.5rem;
+  cursor: pointer;
+}
+
+.btn button:hover {
+  background-color: #fff;
+  color: #64ffc5;
+}
+
+.header h1 {
+  text-align: center;
+}
+#contact-form {
+  font-size: 20px;
+  margin: 20px 0px 20px 20px;
+  padding: 15px;
+}
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.container {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-top: 2%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.form {
+  border: 1px solid color;
+}
+
+.text {
+  padding: 0% 0% 9% 5%;
+  flex-wrap: wrap;
+  color: #ffebcd;
+}
+
+#registration-form {
+  width: 500px;
+  height: 800px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: #377c81;
+  cursor: pointer;
+}
+#login-form {
+  width: 400px;
+  height: 300px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: #377c81;
+  cursor: pointer;
+}
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
